@@ -1,0 +1,4 @@
+kubernetes-external-secrets:
+  serviceAccount:
+    annotations:
+      iam.gke.io/gcp-service-account: demo-external-secrets-sa@<projectID>.iam.gserviceaccount.com
