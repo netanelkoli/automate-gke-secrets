@@ -1,5 +1,4 @@
 locals {
-  prefix = var.prefix != "" ? "${var.prefix}-" : ""
   secrets_map = [
     {
       name               = "demo-password-1"
